@@ -41,6 +41,11 @@ svg {
 .app__right {
   display: flex;
   flex-direction: column;
+  background-color: #28293d !important;
+}
+
+.app__right h3 {
+  color: white;
 }
 
 .app__graphTitle {

@@ -1,9 +1,11 @@
 .table {
   margin-top: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
   height: 400px;
-  color: #6a5d5d;
-  background-color: #fff;
+  /* color: #696161; */
+  color: #efefef;
+  background-color: #2b2e49;
+  border-radius: 5px;
 }
 
 .table tr {
@@ -14,6 +16,6 @@
 .table td {
   padding: 0.5rem;
 }
-.table tr:nth-of-type(odd) {
+/* .table tr:nth-of-type(odd) {
   background-color: #f3f2f8;
-}
+} */
