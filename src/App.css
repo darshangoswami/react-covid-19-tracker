@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f5f6fa;
+  background-color: #1b1a1b;
 }
 
 .app {
@@ -17,6 +17,15 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.app__header h1 {
+  color: white;
+}
+
+.app__header .MuiSelect-root,
+svg {
+  color: white !important;
 }
 
 .app__stats {
