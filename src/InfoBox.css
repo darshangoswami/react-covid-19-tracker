@@ -3,6 +3,8 @@
 .infoBox {
   flex: 1;
   cursor: pointer;
+  /* background-color: #3c4059 !important; */
+  background-color: #28293d !important;
 }
 
 .infoBox:not(:last-child) {
@@ -10,18 +12,21 @@
 }
 
 .infoBox__cases {
-  color: #cc1034;
+  /* color: #cc1034; */
+  color: #ff3b61;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 0.5rem;
 }
 
 .infoBox--selected {
-  border-top: 10px solid greenyellow;
+  /* border-top: 10px solid greenyellow; */
+  border-top: 10px solid lightgreen;
 }
 
 .infoBox--red {
-  border-color: red;
+  /* border-color: red; */
+  border-color: #ff3b61;
 }
 
 .infoBox__cases--green {
@@ -33,7 +38,8 @@
 }
 
 .infoBox__cases--grey {
-  color: grey;
+  /* color: grey; */
+  color: #a9a9a9;
 }
 
 .infoBox__total {
@@ -41,4 +47,8 @@
   font-weight: 700 !important;
   font-size: 0.8rem !important;
   margin-top: 15px !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: white !important;
 }
